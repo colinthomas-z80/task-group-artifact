@@ -31,7 +31,7 @@ config = Config(
             nodes_per_block=1,
             init_blocks=num_workers,
             max_blocks=num_workers,
-            worker_init="unset PYTHONPATH; source /project01/ndcms/cthoma26/miniconda3/etc/profile.d/conda.sh; conda activate /project01/ndcms/cthoma26/miniconda3/envs/parsldockenv;",
+            worker_init="unset PYTHONPATH; source $CONDA_INIT; conda activate $CONDA_ENV",
         #    scheduler_options="#$ -pe smp 12\n#$ -q long",
             scheduler_options=f"request_cpus={num_cores}\nrequest_memory=4096",
         ),
@@ -67,11 +67,11 @@ with parsl.load(config) as conf:
     time.sleep(60)
     list_finals = []
     for i in range(num_tasks):
-        temp_initial = File(f"/project01/ndcms/cthoma26/parsl-sequential-temps/scratch_space/file1-{i}")
+        temp_initial = File(f"$USER_DIR/scratch_space/file1-{i}")
         sequence_begin = f1(intermediate_data_size, outputs=[temp_initial])
         prev_output = None
         for j in range(num_intermediate_stages):
-            temp_intermediate = File(f"/project01/ndcms/cthoma26/parsl-sequential-temps/scratch_space/file{j+1}-{i}-{j}")
+            temp_intermediate = File(f"$USER_DIR/scratch_space/file{j+1}-{i}-{j}")
             if prev_output is None:
                 prev_output = f2(intermediate_data_size, inputs=[sequence_begin.outputs[0]], outputs=[temp_intermediate])
             else:
