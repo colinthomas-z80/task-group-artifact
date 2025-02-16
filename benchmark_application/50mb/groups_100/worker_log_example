@@ -1,0 +1,1393 @@
+2025/02/04 11:57:29.42 vine_worker[3393150] debug: vine_worker version 8.0.0 DEVELOPMENT (released 2025-01-25 14:21:31 -0500)
+2025/02/04 11:57:29.42 vine_worker[3393150] debug: Built by cthoma26@condorfe.crc.nd.edu on 2025-01-25 14:21:31 -0500
+2025/02/04 11:57:29.42 vine_worker[3393150] debug: System: Linux condorfe.crc.nd.edu 5.14.0-503.21.1.el9_5.x86_64 #1 SMP PREEMPT_DYNAMIC Thu Dec 19 09:37:00 EST 2024 x86_64 x86_64 x86_64 GNU/Linux
+2025/02/04 11:57:29.42 vine_worker[3393150] debug: Configuration: --with-base-dir /project01/ndcms/cthoma26/miniconda3/envs/parsldockenv --prefix /project01/ndcms/cthoma26/miniconda3/envs/parsldockenv
+2025/02/04 11:57:29.42 vine_worker[3393150] dns: looking up name condorfe.crc.nd.edu
+2025/02/04 11:57:29.42 vine_worker[3393150] dns: condorfe.crc.nd.edu is 10.32.85.31
+2025/02/04 11:57:29.42 vine_worker[3393150] tcp: connecting to 10.32.85.31 port 9285
+2025/02/04 11:57:29.42 vine_worker[3393150] tcp: made connection to 10.32.85.31 port 9285
+2025/02/04 11:57:29.42 vine_worker[3393150] vine: connected to manager condorfe.crc.nd.edu:9285 via local address 10.32.85.31:45472
+2025/02/04 11:57:29.42 vine_worker[3393150] vine: preparing workspace /tmp/worker-238401-3393150
+2025/02/04 11:57:29.42 vine_worker[3393150] vine: loading cache at: /tmp/worker-238401-3393150/cache
+2025/02/04 11:57:29.42 vine_worker[3393150] tcp: listening on port 1024
+2025/02/04 11:57:29.42 vine_worker[3393150] vine: started transfer server pid 3393152 listening on 0.0.0.0:1024
+2025/02/04 11:57:29.42 vine_worker[3393150] dns: looking up addr 10.32.85.31
+2025/02/04 11:57:29.42 vine_worker[3393150] dns: 10.32.85.31 is condorfe.crc.nd.edu
+2025/02/04 11:57:29.42 vine_worker[3393150] dns: finding my hostname: uname = condorfe.crc.nd.edu, address = 10.32.85.31, hostname = condorfe.crc.nd.edu
+2025/02/04 11:57:29.42 vine_worker[3393150] vine: tx: taskvine 12 condorfe.crc.nd.edu Linux x86_64 8.0.0
+2025/02/04 11:57:29.42 vine_worker[3393150] vine: tx: info worker-id worker-0b79e04b56913b4c128672b3d224d9fd
+2025/02/04 11:57:29.42 vine_worker[3393150] vine: tx: transfer-port 1024
+2025/02/04 11:57:29.42 vine_worker[3393150] vine: tx: info worker-end-time 0
+2025/02/04 11:57:29.42 vine_worker[3393150] vine: tx: alive
+2025/02/04 11:57:29.42 vine_worker[3393150] vine: Sending resource description to manager:
+2025/02/04 11:57:29.42 vine_worker[3393150] vine:    cores      0 inuse     24 total
+2025/02/04 11:57:29.42 vine_worker[3393150] vine:   memory      0 inuse 256462 total
+2025/02/04 11:57:29.42 vine_worker[3393150] vine:     disk      0 inuse 642719 total
+2025/02/04 11:57:29.43 vine_worker[3393150] vine:     gpus      0 inuse      0 total
+2025/02/04 11:57:29.43 vine_worker[3393150] vine:  workers      0 inuse      1 total
+2025/02/04 11:57:29.43 vine_worker[3393150] vine: working for manager at 10.32.85.31:9285.
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 501
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 47
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=/dev/zero of=file1-10 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-prlzlmtvmnbyosm file1-10 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: started task 501 pid 3393153: dd if=/dev/zero of=file1-10 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 502
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 48
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file1-10 of=file1-10-0 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-prlzlmtvmnbyosm file1-10 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-vjvqkkhdajcalkw file1-10-0 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 503
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 50
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file1-10-0 of=file2-10-1 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-vjvqkkhdajcalkw file1-10-0 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-vjxmzodlhojcymj file2-10-1 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 504
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 50
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file2-10-1 of=file3-10-2 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-vjxmzodlhojcymj file2-10-1 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-jehqfllivlnvbao file3-10-2 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 505
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 50
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file3-10-2 of=file4-10-3 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-jehqfllivlnvbao file3-10-2 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-enxtjwsopnablsc file4-10-3 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 506
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 50
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file4-10-3 of=file5-10-4 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-enxtjwsopnablsc file4-10-3 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-qeeitrrvijldooy file5-10-4 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 507
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 50
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file5-10-4 of=file6-10-5 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-qeeitrrvijldooy file5-10-4 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-neneoghxgvfqpqo file6-10-5 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 508
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 50
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file6-10-5 of=file7-10-6 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-neneoghxgvfqpqo file6-10-5 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-ovrweknmkwojedq file7-10-6 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 509
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 50
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file7-10-6 of=file8-10-7 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-ovrweknmkwojedq file7-10-6 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-cjbjejbnsjrdppt file8-10-7 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 510
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 50
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file8-10-7 of=file9-10-8 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-cjbjejbnsjrdppt file8-10-7 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-urypsaowwijowxs file9-10-8 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 511
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 51
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file9-10-8 of=file10-10-9 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-urypsaowwijowxs file9-10-8 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-hrgelswgdzsszmy file10-10-9 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 512
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 53
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file10-10-9 of=file11-10-10 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-hrgelswgdzsszmy file10-10-9 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-mwrmbuevekdtpxa file11-10-10 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 513
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file11-10-10 of=file12-10-11 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-mwrmbuevekdtpxa file11-10-10 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-wggfanrahwsupjf file12-10-11 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 514
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file12-10-11 of=file13-10-12 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-wggfanrahwsupjf file12-10-11 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-nbftdfpglppuxxr file13-10-12 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 515
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file13-10-12 of=file14-10-13 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-nbftdfpglppuxxr file13-10-12 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-fbmipathodpkxos file14-10-13 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 516
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file14-10-13 of=file15-10-14 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-fbmipathodpkxos file14-10-13 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-mvfoagwsucpyiph file15-10-14 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 517
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file15-10-14 of=file16-10-15 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-mvfoagwsucpyiph file15-10-14 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-oqyydeufigocley file16-10-15 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 518
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file16-10-15 of=file17-10-16 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-oqyydeufigocley file16-10-15 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-hrazpzyjpwfzsec file17-10-16 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 519
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file17-10-16 of=file18-10-17 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-hrazpzyjpwfzsec file17-10-16 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-fyniumlhdnodrnv file18-10-17 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 520
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file18-10-17 of=file19-10-18 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-fyniumlhdnodrnv file18-10-17 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-ygigthrtuxjrotq file19-10-18 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 521
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file19-10-18 of=file20-10-19 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-ygigthrtuxjrotq file19-10-18 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-artprsmrmuotekm file20-10-19 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 522
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file20-10-19 of=file21-10-20 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-artprsmrmuotekm file20-10-19 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-acnxfpqvjqywqvs file21-10-20 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 523
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file21-10-20 of=file22-10-21 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-acnxfpqvjqywqvs file21-10-20 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-vxxviybzvfwzoov file22-10-21 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 524
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file22-10-21 of=file23-10-22 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-vxxviybzvfwzoov file22-10-21 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-zkckfwgfluxsvco file23-10-22 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 525
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file23-10-22 of=file24-10-23 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-zkckfwgfluxsvco file23-10-22 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-dldkxegvzmcbqly file24-10-23 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 526
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file24-10-23 of=file25-10-24 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-dldkxegvzmcbqly file24-10-23 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-zsriofforpdowuv file25-10-24 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 527
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file25-10-24 of=file26-10-25 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-zsriofforpdowuv file25-10-24 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-iieomkbscteoyqj file26-10-25 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 528
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file26-10-25 of=file27-10-26 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-iieomkbscteoyqj file26-10-25 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-utvgoyxohaespel file27-10-26 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 529
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file27-10-26 of=file28-10-27 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-utvgoyxohaespel file27-10-26 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-ryewxnmhwuqvvpl file28-10-27 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 530
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file28-10-27 of=file29-10-28 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-ryewxnmhwuqvvpl file28-10-27 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-mqejkhwxnanwzsp file29-10-28 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 531
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file29-10-28 of=file30-10-29 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-mqejkhwxnanwzsp file29-10-28 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-fksqhssebmlpumq file30-10-29 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 532
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file30-10-29 of=file31-10-30 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-fksqhssebmlpumq file30-10-29 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-ifprpverccnvdcm file31-10-30 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 533
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file31-10-30 of=file32-10-31 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-ifprpverccnvdcm file31-10-30 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-hhwwhismpilgozt file32-10-31 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 534
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file32-10-31 of=file33-10-32 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-hhwwhismpilgozt file32-10-31 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-lrohlrtgfqrzkcw file33-10-32 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 535
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file33-10-32 of=file34-10-33 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-lrohlrtgfqrzkcw file33-10-32 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-aujjgceehywijnl file34-10-33 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 536
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file34-10-33 of=file35-10-34 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: infile temp-rnd-aujjgceehywijnl file34-10-33 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: outfile temp-rnd-kimyxafratffbby file35-10-34 0
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: task 537
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: dd if=file35-10-34 of=file36-10-35 bs=50000000 count=1
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.47 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: infile temp-rnd-kimyxafratffbby file35-10-34 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: outfile temp-rnd-eavqmymifvyrhxr file36-10-35 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: task 538
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: dd if=file36-10-35 of=file37-10-36 bs=50000000 count=1
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: infile temp-rnd-eavqmymifvyrhxr file36-10-35 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: outfile temp-rnd-fvogxewybliqjfe file37-10-36 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: task 539
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: dd if=file37-10-36 of=file38-10-37 bs=50000000 count=1
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: infile temp-rnd-fvogxewybliqjfe file37-10-36 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: outfile temp-rnd-sckrhbshablpkap file38-10-37 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: task 540
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: dd if=file38-10-37 of=file39-10-38 bs=50000000 count=1
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: infile temp-rnd-sckrhbshablpkap file38-10-37 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: outfile temp-rnd-yqrgxqhbjuytmrz file39-10-38 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: task 541
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: dd if=file39-10-38 of=file40-10-39 bs=50000000 count=1
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: infile temp-rnd-yqrgxqhbjuytmrz file39-10-38 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: outfile temp-rnd-ijnimamhkzbtsvd file40-10-39 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: task 542
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: dd if=file40-10-39 of=file41-10-40 bs=50000000 count=1
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: infile temp-rnd-ijnimamhkzbtsvd file40-10-39 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: outfile temp-rnd-haloenkuzgouebe file41-10-40 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: task 543
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: dd if=file41-10-40 of=file42-10-41 bs=50000000 count=1
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: infile temp-rnd-haloenkuzgouebe file41-10-40 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: outfile temp-rnd-bgermwkckxnoexq file42-10-41 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: task 544
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: dd if=file42-10-41 of=file43-10-42 bs=50000000 count=1
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: infile temp-rnd-bgermwkckxnoexq file42-10-41 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: outfile temp-rnd-vjkpiywpylbwhhk file43-10-42 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: task 545
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: dd if=file43-10-42 of=file44-10-43 bs=50000000 count=1
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: infile temp-rnd-vjkpiywpylbwhhk file43-10-42 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: outfile temp-rnd-xmlbwuhbqqdzzwu file44-10-43 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: task 546
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: dd if=file44-10-43 of=file45-10-44 bs=50000000 count=1
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: infile temp-rnd-xmlbwuhbqqdzzwu file44-10-43 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: outfile temp-rnd-xufsvzvsqzkallv file45-10-44 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: task 547
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: dd if=file45-10-44 of=file46-10-45 bs=50000000 count=1
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: infile temp-rnd-xufsvzvsqzkallv file45-10-44 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: outfile temp-rnd-ohxrqjjxyffvjog file46-10-45 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: task 548
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: dd if=file46-10-45 of=file47-10-46 bs=50000000 count=1
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: infile temp-rnd-ohxrqjjxyffvjog file46-10-45 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: outfile temp-rnd-ieacqdhheepsdwl file47-10-46 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: task 549
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: dd if=file47-10-46 of=file48-10-47 bs=50000000 count=1
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: infile temp-rnd-ieacqdhheepsdwl file47-10-46 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: outfile temp-rnd-npnkkslyoglmgxy file48-10-47 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: task 550
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: cmd 54
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: dd if=file48-10-47 of=file49-10-48 bs=50000000 count=1
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: category default
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: cores 24.000
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: gpus 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: memory 256462
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: disk 642719
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: infile temp-rnd-npnkkslyoglmgxy file48-10-47 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: outfile temp-rnd-rkyufnapbatdjxo file49-10-48 0
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: groupid 11
+2025/02/04 11:57:29.48 vine_worker[3393150] vine: rx: end
+2025/02/04 11:57:29.53 vine_worker[3393150] vine: task 501 (pid 3393153) exited normally with exit code 0
+2025/02/04 11:57:29.53 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.501/file1-10
+2025/02/04 11:57:29.53 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.501/file1-10 to /tmp/worker-238401-3393150/cache/temp-rnd-prlzlmtvmnbyosm
+2025/02/04 11:57:29.53 vine_worker[3393150] vine: tx: cache-update temp-rnd-prlzlmtvmnbyosm 1 0 50000000 33188 58441 1738688249472699 X
+2025/02/04 11:57:29.53 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-prlzlmtvmnbyosm -> /tmp/worker-238401-3393150/task.502/file1-10
+2025/02/04 11:57:29.53 vine_worker[3393150] vine: started task 502 pid 3393154: dd if=file1-10 of=file1-10-0 bs=50000000 count=1
+2025/02/04 11:57:29.53 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:29.58 vine_worker[3393150] vine: task 502 (pid 3393154) exited normally with exit code 0
+2025/02/04 11:57:29.58 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.502/file1-10-0
+2025/02/04 11:57:29.58 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.502/file1-10-0 to /tmp/worker-238401-3393150/cache/temp-rnd-vjvqkkhdajcalkw
+2025/02/04 11:57:29.58 vine_worker[3393150] vine: tx: cache-update temp-rnd-vjvqkkhdajcalkw 1 0 50000000 33188 58306 1738688249531526 X
+2025/02/04 11:57:29.58 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-vjvqkkhdajcalkw -> /tmp/worker-238401-3393150/task.503/file1-10-0
+2025/02/04 11:57:29.59 vine_worker[3393150] vine: started task 503 pid 3393155: dd if=file1-10-0 of=file2-10-1 bs=50000000 count=1
+2025/02/04 11:57:29.59 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:29.64 vine_worker[3393150] vine: task 503 (pid 3393155) exited normally with exit code 0
+2025/02/04 11:57:29.64 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.503/file2-10-1
+2025/02/04 11:57:29.64 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.503/file2-10-1 to /tmp/worker-238401-3393150/cache/temp-rnd-vjxmzodlhojcymj
+2025/02/04 11:57:29.64 vine_worker[3393150] vine: tx: cache-update temp-rnd-vjxmzodlhojcymj 1 0 50000000 33188 52822 1738688249590173 X
+2025/02/04 11:57:29.64 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-vjxmzodlhojcymj -> /tmp/worker-238401-3393150/task.504/file2-10-1
+2025/02/04 11:57:29.64 vine_worker[3393150] vine: started task 504 pid 3393156: dd if=file2-10-1 of=file3-10-2 bs=50000000 count=1
+2025/02/04 11:57:29.64 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:29.69 vine_worker[3393150] vine: task 504 (pid 3393156) exited normally with exit code 0
+2025/02/04 11:57:29.69 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.504/file3-10-2
+2025/02/04 11:57:29.69 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.504/file3-10-2 to /tmp/worker-238401-3393150/cache/temp-rnd-jehqfllivlnvbao
+2025/02/04 11:57:29.69 vine_worker[3393150] vine: tx: cache-update temp-rnd-jehqfllivlnvbao 1 0 50000000 33188 51942 1738688249643319 X
+2025/02/04 11:57:29.69 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-jehqfllivlnvbao -> /tmp/worker-238401-3393150/task.505/file3-10-2
+2025/02/04 11:57:29.69 vine_worker[3393150] vine: started task 505 pid 3393157: dd if=file3-10-2 of=file4-10-3 bs=50000000 count=1
+2025/02/04 11:57:29.69 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:29.74 vine_worker[3393150] vine: task 505 (pid 3393157) exited normally with exit code 0
+2025/02/04 11:57:29.74 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.505/file4-10-3
+2025/02/04 11:57:29.74 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.505/file4-10-3 to /tmp/worker-238401-3393150/cache/temp-rnd-enxtjwsopnablsc
+2025/02/04 11:57:29.74 vine_worker[3393150] vine: tx: cache-update temp-rnd-enxtjwsopnablsc 1 0 50000000 33188 52386 1738688249695601 X
+2025/02/04 11:57:29.74 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-enxtjwsopnablsc -> /tmp/worker-238401-3393150/task.506/file4-10-3
+2025/02/04 11:57:29.74 vine_worker[3393150] vine: started task 506 pid 3393158: dd if=file4-10-3 of=file5-10-4 bs=50000000 count=1
+2025/02/04 11:57:29.74 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:29.80 vine_worker[3393150] vine: task 506 (pid 3393158) exited normally with exit code 0
+2025/02/04 11:57:29.80 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.506/file5-10-4
+2025/02/04 11:57:29.80 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.506/file5-10-4 to /tmp/worker-238401-3393150/cache/temp-rnd-qeeitrrvijldooy
+2025/02/04 11:57:29.80 vine_worker[3393150] vine: tx: cache-update temp-rnd-qeeitrrvijldooy 1 0 50000000 33188 52868 1738688249748339 X
+2025/02/04 11:57:29.80 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-qeeitrrvijldooy -> /tmp/worker-238401-3393150/task.507/file5-10-4
+2025/02/04 11:57:29.80 vine_worker[3393150] vine: started task 507 pid 3393159: dd if=file5-10-4 of=file6-10-5 bs=50000000 count=1
+2025/02/04 11:57:29.80 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:29.85 vine_worker[3393150] vine: task 507 (pid 3393159) exited normally with exit code 0
+2025/02/04 11:57:29.85 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.507/file6-10-5
+2025/02/04 11:57:29.85 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.507/file6-10-5 to /tmp/worker-238401-3393150/cache/temp-rnd-neneoghxgvfqpqo
+2025/02/04 11:57:29.85 vine_worker[3393150] vine: tx: cache-update temp-rnd-neneoghxgvfqpqo 1 0 50000000 33188 54097 1738688249801570 X
+2025/02/04 11:57:29.85 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-neneoghxgvfqpqo -> /tmp/worker-238401-3393150/task.508/file6-10-5
+2025/02/04 11:57:29.85 vine_worker[3393150] vine: started task 508 pid 3393160: dd if=file6-10-5 of=file7-10-6 bs=50000000 count=1
+2025/02/04 11:57:29.85 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:29.90 vine_worker[3393150] vine: task 508 (pid 3393160) exited normally with exit code 0
+2025/02/04 11:57:29.90 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.508/file7-10-6
+2025/02/04 11:57:29.90 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.508/file7-10-6 to /tmp/worker-238401-3393150/cache/temp-rnd-ovrweknmkwojedq
+2025/02/04 11:57:29.90 vine_worker[3393150] vine: tx: cache-update temp-rnd-ovrweknmkwojedq 1 0 50000000 33188 53556 1738688249855979 X
+2025/02/04 11:57:29.90 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-ovrweknmkwojedq -> /tmp/worker-238401-3393150/task.509/file7-10-6
+2025/02/04 11:57:29.90 vine_worker[3393150] vine: started task 509 pid 3393161: dd if=file7-10-6 of=file8-10-7 bs=50000000 count=1
+2025/02/04 11:57:29.90 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:29.96 vine_worker[3393150] vine: task 509 (pid 3393161) exited normally with exit code 0
+2025/02/04 11:57:29.96 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.509/file8-10-7
+2025/02/04 11:57:29.96 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.509/file8-10-7 to /tmp/worker-238401-3393150/cache/temp-rnd-cjbjejbnsjrdppt
+2025/02/04 11:57:29.96 vine_worker[3393150] vine: tx: cache-update temp-rnd-cjbjejbnsjrdppt 1 0 50000000 33188 55157 1738688249909848 X
+2025/02/04 11:57:29.96 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-cjbjejbnsjrdppt -> /tmp/worker-238401-3393150/task.510/file8-10-7
+2025/02/04 11:57:29.96 vine_worker[3393150] vine: started task 510 pid 3393162: dd if=file8-10-7 of=file9-10-8 bs=50000000 count=1
+2025/02/04 11:57:29.96 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:30.02 vine_worker[3393150] vine: task 510 (pid 3393162) exited normally with exit code 0
+2025/02/04 11:57:30.02 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.510/file9-10-8
+2025/02/04 11:57:30.02 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.510/file9-10-8 to /tmp/worker-238401-3393150/cache/temp-rnd-urypsaowwijowxs
+2025/02/04 11:57:30.02 vine_worker[3393150] vine: tx: cache-update temp-rnd-urypsaowwijowxs 1 0 50000000 33188 59152 1738688249965346 X
+2025/02/04 11:57:30.02 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-urypsaowwijowxs -> /tmp/worker-238401-3393150/task.511/file9-10-8
+2025/02/04 11:57:30.02 vine_worker[3393150] vine: started task 511 pid 3393163: dd if=file9-10-8 of=file10-10-9 bs=50000000 count=1
+2025/02/04 11:57:30.02 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:30.07 vine_worker[3393150] vine: task 511 (pid 3393163) exited normally with exit code 0
+2025/02/04 11:57:30.07 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.511/file10-10-9
+2025/02/04 11:57:30.07 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.511/file10-10-9 to /tmp/worker-238401-3393150/cache/temp-rnd-hrgelswgdzsszmy
+2025/02/04 11:57:30.07 vine_worker[3393150] vine: tx: cache-update temp-rnd-hrgelswgdzsszmy 1 0 50000000 33188 54959 1738688250024817 X
+2025/02/04 11:57:30.07 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-hrgelswgdzsszmy -> /tmp/worker-238401-3393150/task.512/file10-10-9
+2025/02/04 11:57:30.08 vine_worker[3393150] vine: started task 512 pid 3393164: dd if=file10-10-9 of=file11-10-10 bs=50000000 count=1
+2025/02/04 11:57:30.08 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:30.13 vine_worker[3393150] vine: task 512 (pid 3393164) exited normally with exit code 0
+2025/02/04 11:57:30.13 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.512/file11-10-10
+2025/02/04 11:57:30.13 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.512/file11-10-10 to /tmp/worker-238401-3393150/cache/temp-rnd-mwrmbuevekdtpxa
+2025/02/04 11:57:30.13 vine_worker[3393150] vine: tx: cache-update temp-rnd-mwrmbuevekdtpxa 1 0 50000000 33188 59381 1738688250080111 X
+2025/02/04 11:57:30.13 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-mwrmbuevekdtpxa -> /tmp/worker-238401-3393150/task.513/file11-10-10
+2025/02/04 11:57:30.13 vine_worker[3393150] vine: started task 513 pid 3393165: dd if=file11-10-10 of=file12-10-11 bs=50000000 count=1
+2025/02/04 11:57:30.13 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:30.19 vine_worker[3393150] vine: task 513 (pid 3393165) exited normally with exit code 0
+2025/02/04 11:57:30.19 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.513/file12-10-11
+2025/02/04 11:57:30.19 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.513/file12-10-11 to /tmp/worker-238401-3393150/cache/temp-rnd-wggfanrahwsupjf
+2025/02/04 11:57:30.19 vine_worker[3393150] vine: tx: cache-update temp-rnd-wggfanrahwsupjf 1 0 50000000 33188 53606 1738688250139839 X
+2025/02/04 11:57:30.19 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-wggfanrahwsupjf -> /tmp/worker-238401-3393150/task.514/file12-10-11
+2025/02/04 11:57:30.19 vine_worker[3393150] vine: started task 514 pid 3393166: dd if=file12-10-11 of=file13-10-12 bs=50000000 count=1
+2025/02/04 11:57:30.19 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:30.24 vine_worker[3393150] vine: task 514 (pid 3393166) exited normally with exit code 0
+2025/02/04 11:57:30.24 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.514/file13-10-12
+2025/02/04 11:57:30.24 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.514/file13-10-12 to /tmp/worker-238401-3393150/cache/temp-rnd-nbftdfpglppuxxr
+2025/02/04 11:57:30.24 vine_worker[3393150] vine: tx: cache-update temp-rnd-nbftdfpglppuxxr 1 0 50000000 33188 52402 1738688250193817 X
+2025/02/04 11:57:30.24 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-nbftdfpglppuxxr -> /tmp/worker-238401-3393150/task.515/file13-10-12
+2025/02/04 11:57:30.24 vine_worker[3393150] vine: started task 515 pid 3393167: dd if=file13-10-12 of=file14-10-13 bs=50000000 count=1
+2025/02/04 11:57:30.24 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:30.30 vine_worker[3393150] vine: task 515 (pid 3393167) exited normally with exit code 0
+2025/02/04 11:57:30.30 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.515/file14-10-13
+2025/02/04 11:57:30.30 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.515/file14-10-13 to /tmp/worker-238401-3393150/cache/temp-rnd-fbmipathodpkxos
+2025/02/04 11:57:30.30 vine_worker[3393150] vine: tx: cache-update temp-rnd-fbmipathodpkxos 1 0 50000000 33188 57052 1738688250246622 X
+2025/02/04 11:57:30.30 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-fbmipathodpkxos -> /tmp/worker-238401-3393150/task.516/file14-10-13
+2025/02/04 11:57:30.30 vine_worker[3393150] vine: started task 516 pid 3393168: dd if=file14-10-13 of=file15-10-14 bs=50000000 count=1
+2025/02/04 11:57:30.30 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:30.35 vine_worker[3393150] vine: task 516 (pid 3393168) exited normally with exit code 0
+2025/02/04 11:57:30.35 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.516/file15-10-14
+2025/02/04 11:57:30.35 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.516/file15-10-14 to /tmp/worker-238401-3393150/cache/temp-rnd-mvfoagwsucpyiph
+2025/02/04 11:57:30.35 vine_worker[3393150] vine: tx: cache-update temp-rnd-mvfoagwsucpyiph 1 0 50000000 33188 54362 1738688250304025 X
+2025/02/04 11:57:30.35 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-mvfoagwsucpyiph -> /tmp/worker-238401-3393150/task.517/file15-10-14
+2025/02/04 11:57:30.35 vine_worker[3393150] vine: started task 517 pid 3393169: dd if=file15-10-14 of=file16-10-15 bs=50000000 count=1
+2025/02/04 11:57:30.35 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:30.41 vine_worker[3393150] vine: task 517 (pid 3393169) exited normally with exit code 0
+2025/02/04 11:57:30.41 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.517/file16-10-15
+2025/02/04 11:57:30.41 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.517/file16-10-15 to /tmp/worker-238401-3393150/cache/temp-rnd-oqyydeufigocley
+2025/02/04 11:57:30.41 vine_worker[3393150] vine: tx: cache-update temp-rnd-oqyydeufigocley 1 0 50000000 33188 54317 1738688250358773 X
+2025/02/04 11:57:30.41 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-oqyydeufigocley -> /tmp/worker-238401-3393150/task.518/file16-10-15
+2025/02/04 11:57:30.41 vine_worker[3393150] vine: started task 518 pid 3393170: dd if=file16-10-15 of=file17-10-16 bs=50000000 count=1
+2025/02/04 11:57:30.41 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:30.46 vine_worker[3393150] vine: task 518 (pid 3393170) exited normally with exit code 0
+2025/02/04 11:57:30.46 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.518/file17-10-16
+2025/02/04 11:57:30.46 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.518/file17-10-16 to /tmp/worker-238401-3393150/cache/temp-rnd-hrazpzyjpwfzsec
+2025/02/04 11:57:30.46 vine_worker[3393150] vine: tx: cache-update temp-rnd-hrazpzyjpwfzsec 1 0 50000000 33188 54312 1738688250413459 X
+2025/02/04 11:57:30.46 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-hrazpzyjpwfzsec -> /tmp/worker-238401-3393150/task.519/file17-10-16
+2025/02/04 11:57:30.46 vine_worker[3393150] vine: started task 519 pid 3393171: dd if=file17-10-16 of=file18-10-17 bs=50000000 count=1
+2025/02/04 11:57:30.46 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:30.52 vine_worker[3393150] vine: task 519 (pid 3393171) exited normally with exit code 0
+2025/02/04 11:57:30.52 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.519/file18-10-17
+2025/02/04 11:57:30.52 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.519/file18-10-17 to /tmp/worker-238401-3393150/cache/temp-rnd-fyniumlhdnodrnv
+2025/02/04 11:57:30.52 vine_worker[3393150] vine: tx: cache-update temp-rnd-fyniumlhdnodrnv 1 0 50000000 33188 55498 1738688250468106 X
+2025/02/04 11:57:30.52 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-fyniumlhdnodrnv -> /tmp/worker-238401-3393150/task.520/file18-10-17
+2025/02/04 11:57:30.52 vine_worker[3393150] vine: started task 520 pid 3393172: dd if=file18-10-17 of=file19-10-18 bs=50000000 count=1
+2025/02/04 11:57:30.52 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:30.57 vine_worker[3393150] vine: task 520 (pid 3393172) exited normally with exit code 0
+2025/02/04 11:57:30.57 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.520/file19-10-18
+2025/02/04 11:57:30.57 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.520/file19-10-18 to /tmp/worker-238401-3393150/cache/temp-rnd-ygigthrtuxjrotq
+2025/02/04 11:57:30.57 vine_worker[3393150] vine: tx: cache-update temp-rnd-ygigthrtuxjrotq 1 0 50000000 33188 53283 1738688250523961 X
+2025/02/04 11:57:30.57 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-ygigthrtuxjrotq -> /tmp/worker-238401-3393150/task.521/file19-10-18
+2025/02/04 11:57:30.57 vine_worker[3393150] vine: started task 521 pid 3393173: dd if=file19-10-18 of=file20-10-19 bs=50000000 count=1
+2025/02/04 11:57:30.57 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:30.63 vine_worker[3393150] vine: task 521 (pid 3393173) exited normally with exit code 0
+2025/02/04 11:57:30.63 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.521/file20-10-19
+2025/02/04 11:57:30.63 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.521/file20-10-19 to /tmp/worker-238401-3393150/cache/temp-rnd-artprsmrmuotekm
+2025/02/04 11:57:30.63 vine_worker[3393150] vine: tx: cache-update temp-rnd-artprsmrmuotekm 1 0 50000000 33188 55689 1738688250577627 X
+2025/02/04 11:57:30.63 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-artprsmrmuotekm -> /tmp/worker-238401-3393150/task.522/file20-10-19
+2025/02/04 11:57:30.63 vine_worker[3393150] vine: started task 522 pid 3393174: dd if=file20-10-19 of=file21-10-20 bs=50000000 count=1
+2025/02/04 11:57:30.63 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:30.68 vine_worker[3393150] vine: task 522 (pid 3393174) exited normally with exit code 0
+2025/02/04 11:57:30.68 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.522/file21-10-20
+2025/02/04 11:57:30.68 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.522/file21-10-20 to /tmp/worker-238401-3393150/cache/temp-rnd-acnxfpqvjqywqvs
+2025/02/04 11:57:30.68 vine_worker[3393150] vine: tx: cache-update temp-rnd-acnxfpqvjqywqvs 1 0 50000000 33188 53907 1738688250633694 X
+2025/02/04 11:57:30.68 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-acnxfpqvjqywqvs -> /tmp/worker-238401-3393150/task.523/file21-10-20
+2025/02/04 11:57:30.68 vine_worker[3393150] vine: started task 523 pid 3393175: dd if=file21-10-20 of=file22-10-21 bs=50000000 count=1
+2025/02/04 11:57:30.68 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:30.74 vine_worker[3393150] vine: task 523 (pid 3393175) exited normally with exit code 0
+2025/02/04 11:57:30.74 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.523/file22-10-21
+2025/02/04 11:57:30.74 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.523/file22-10-21 to /tmp/worker-238401-3393150/cache/temp-rnd-vxxviybzvfwzoov
+2025/02/04 11:57:30.74 vine_worker[3393150] vine: tx: cache-update temp-rnd-vxxviybzvfwzoov 1 0 50000000 33188 52657 1738688250687938 X
+2025/02/04 11:57:30.74 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-vxxviybzvfwzoov -> /tmp/worker-238401-3393150/task.524/file22-10-21
+2025/02/04 11:57:30.74 vine_worker[3393150] vine: started task 524 pid 3393176: dd if=file22-10-21 of=file23-10-22 bs=50000000 count=1
+2025/02/04 11:57:30.74 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:30.79 vine_worker[3393150] vine: task 524 (pid 3393176) exited normally with exit code 0
+2025/02/04 11:57:30.79 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.524/file23-10-22
+2025/02/04 11:57:30.79 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.524/file23-10-22 to /tmp/worker-238401-3393150/cache/temp-rnd-zkckfwgfluxsvco
+2025/02/04 11:57:30.79 vine_worker[3393150] vine: tx: cache-update temp-rnd-zkckfwgfluxsvco 1 0 50000000 33188 53139 1738688250740934 X
+2025/02/04 11:57:30.79 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-zkckfwgfluxsvco -> /tmp/worker-238401-3393150/task.525/file23-10-22
+2025/02/04 11:57:30.79 vine_worker[3393150] vine: started task 525 pid 3393177: dd if=file23-10-22 of=file24-10-23 bs=50000000 count=1
+2025/02/04 11:57:30.79 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:30.84 vine_worker[3393150] vine: task 525 (pid 3393177) exited normally with exit code 0
+2025/02/04 11:57:30.84 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.525/file24-10-23
+2025/02/04 11:57:30.84 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.525/file24-10-23 to /tmp/worker-238401-3393150/cache/temp-rnd-dldkxegvzmcbqly
+2025/02/04 11:57:30.84 vine_worker[3393150] vine: tx: cache-update temp-rnd-dldkxegvzmcbqly 1 0 50000000 33188 55022 1738688250794433 X
+2025/02/04 11:57:30.84 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-dldkxegvzmcbqly -> /tmp/worker-238401-3393150/task.526/file24-10-23
+2025/02/04 11:57:30.84 vine_worker[3393150] vine: started task 526 pid 3393178: dd if=file24-10-23 of=file25-10-24 bs=50000000 count=1
+2025/02/04 11:57:30.84 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:30.90 vine_worker[3393150] vine: task 526 (pid 3393178) exited normally with exit code 0
+2025/02/04 11:57:30.90 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.526/file25-10-24
+2025/02/04 11:57:30.90 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.526/file25-10-24 to /tmp/worker-238401-3393150/cache/temp-rnd-zsriofforpdowuv
+2025/02/04 11:57:30.90 vine_worker[3393150] vine: tx: cache-update temp-rnd-zsriofforpdowuv 1 0 50000000 33188 53013 1738688250849843 X
+2025/02/04 11:57:30.90 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-zsriofforpdowuv -> /tmp/worker-238401-3393150/task.527/file25-10-24
+2025/02/04 11:57:30.90 vine_worker[3393150] vine: started task 527 pid 3393179: dd if=file25-10-24 of=file26-10-25 bs=50000000 count=1
+2025/02/04 11:57:30.90 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:30.95 vine_worker[3393150] vine: task 527 (pid 3393179) exited normally with exit code 0
+2025/02/04 11:57:30.95 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.527/file26-10-25
+2025/02/04 11:57:30.95 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.527/file26-10-25 to /tmp/worker-238401-3393150/cache/temp-rnd-iieomkbscteoyqj
+2025/02/04 11:57:30.95 vine_worker[3393150] vine: tx: cache-update temp-rnd-iieomkbscteoyqj 1 0 50000000 33188 53143 1738688250903183 X
+2025/02/04 11:57:30.95 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-iieomkbscteoyqj -> /tmp/worker-238401-3393150/task.528/file26-10-25
+2025/02/04 11:57:30.95 vine_worker[3393150] vine: started task 528 pid 3393180: dd if=file26-10-25 of=file27-10-26 bs=50000000 count=1
+2025/02/04 11:57:30.95 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:31.00 vine_worker[3393150] vine: task 528 (pid 3393180) exited normally with exit code 0
+2025/02/04 11:57:31.00 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.528/file27-10-26
+2025/02/04 11:57:31.00 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.528/file27-10-26 to /tmp/worker-238401-3393150/cache/temp-rnd-utvgoyxohaespel
+2025/02/04 11:57:31.00 vine_worker[3393150] vine: tx: cache-update temp-rnd-utvgoyxohaespel 1 0 50000000 33188 53000 1738688250956685 X
+2025/02/04 11:57:31.00 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-utvgoyxohaespel -> /tmp/worker-238401-3393150/task.529/file27-10-26
+2025/02/04 11:57:31.01 vine_worker[3393150] vine: started task 529 pid 3393181: dd if=file27-10-26 of=file28-10-27 bs=50000000 count=1
+2025/02/04 11:57:31.01 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:31.06 vine_worker[3393150] vine: task 529 (pid 3393181) exited normally with exit code 0
+2025/02/04 11:57:31.06 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.529/file28-10-27
+2025/02/04 11:57:31.06 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.529/file28-10-27 to /tmp/worker-238401-3393150/cache/temp-rnd-ryewxnmhwuqvvpl
+2025/02/04 11:57:31.06 vine_worker[3393150] vine: tx: cache-update temp-rnd-ryewxnmhwuqvvpl 1 0 50000000 33188 54727 1738688251009999 X
+2025/02/04 11:57:31.06 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-ryewxnmhwuqvvpl -> /tmp/worker-238401-3393150/task.530/file28-10-27
+2025/02/04 11:57:31.06 vine_worker[3393150] vine: started task 530 pid 3393182: dd if=file28-10-27 of=file29-10-28 bs=50000000 count=1
+2025/02/04 11:57:31.06 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:31.11 vine_worker[3393150] vine: task 530 (pid 3393182) exited normally with exit code 0
+2025/02/04 11:57:31.11 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.530/file29-10-28
+2025/02/04 11:57:31.11 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.530/file29-10-28 to /tmp/worker-238401-3393150/cache/temp-rnd-mqejkhwxnanwzsp
+2025/02/04 11:57:31.11 vine_worker[3393150] vine: tx: cache-update temp-rnd-mqejkhwxnanwzsp 1 0 50000000 33188 53533 1738688251065129 X
+2025/02/04 11:57:31.11 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-mqejkhwxnanwzsp -> /tmp/worker-238401-3393150/task.531/file29-10-28
+2025/02/04 11:57:31.11 vine_worker[3393150] vine: started task 531 pid 3393183: dd if=file29-10-28 of=file30-10-29 bs=50000000 count=1
+2025/02/04 11:57:31.11 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:31.17 vine_worker[3393150] vine: task 531 (pid 3393183) exited normally with exit code 0
+2025/02/04 11:57:31.17 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.531/file30-10-29
+2025/02/04 11:57:31.17 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.531/file30-10-29 to /tmp/worker-238401-3393150/cache/temp-rnd-fksqhssebmlpumq
+2025/02/04 11:57:31.17 vine_worker[3393150] vine: tx: cache-update temp-rnd-fksqhssebmlpumq 1 0 50000000 33188 55907 1738688251119005 X
+2025/02/04 11:57:31.17 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-fksqhssebmlpumq -> /tmp/worker-238401-3393150/task.532/file30-10-29
+2025/02/04 11:57:31.17 vine_worker[3393150] vine: started task 532 pid 3393184: dd if=file30-10-29 of=file31-10-30 bs=50000000 count=1
+2025/02/04 11:57:31.17 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:31.22 vine_worker[3393150] vine: task 532 (pid 3393184) exited normally with exit code 0
+2025/02/04 11:57:31.22 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.532/file31-10-30
+2025/02/04 11:57:31.22 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.532/file31-10-30 to /tmp/worker-238401-3393150/cache/temp-rnd-ifprpverccnvdcm
+2025/02/04 11:57:31.22 vine_worker[3393150] vine: tx: cache-update temp-rnd-ifprpverccnvdcm 1 0 50000000 33188 53376 1738688251175261 X
+2025/02/04 11:57:31.22 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-ifprpverccnvdcm -> /tmp/worker-238401-3393150/task.533/file31-10-30
+2025/02/04 11:57:31.22 vine_worker[3393150] vine: started task 533 pid 3393185: dd if=file31-10-30 of=file32-10-31 bs=50000000 count=1
+2025/02/04 11:57:31.22 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:31.28 vine_worker[3393150] vine: task 533 (pid 3393185) exited normally with exit code 0
+2025/02/04 11:57:31.28 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.533/file32-10-31
+2025/02/04 11:57:31.28 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.533/file32-10-31 to /tmp/worker-238401-3393150/cache/temp-rnd-hhwwhismpilgozt
+2025/02/04 11:57:31.28 vine_worker[3393150] vine: tx: cache-update temp-rnd-hhwwhismpilgozt 1 0 50000000 33188 53182 1738688251228990 X
+2025/02/04 11:57:31.28 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-hhwwhismpilgozt -> /tmp/worker-238401-3393150/task.534/file32-10-31
+2025/02/04 11:57:31.28 vine_worker[3393150] vine: started task 534 pid 3393186: dd if=file32-10-31 of=file33-10-32 bs=50000000 count=1
+2025/02/04 11:57:31.28 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:31.33 vine_worker[3393150] vine: task 534 (pid 3393186) exited normally with exit code 0
+2025/02/04 11:57:31.33 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.534/file33-10-32
+2025/02/04 11:57:31.33 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.534/file33-10-32 to /tmp/worker-238401-3393150/cache/temp-rnd-lrohlrtgfqrzkcw
+2025/02/04 11:57:31.33 vine_worker[3393150] vine: tx: cache-update temp-rnd-lrohlrtgfqrzkcw 1 0 50000000 33188 54324 1738688251282547 X
+2025/02/04 11:57:31.33 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-lrohlrtgfqrzkcw -> /tmp/worker-238401-3393150/task.535/file33-10-32
+2025/02/04 11:57:31.33 vine_worker[3393150] vine: started task 535 pid 3393187: dd if=file33-10-32 of=file34-10-33 bs=50000000 count=1
+2025/02/04 11:57:31.33 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:31.38 vine_worker[3393150] vine: task 535 (pid 3393187) exited normally with exit code 0
+2025/02/04 11:57:31.38 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.535/file34-10-33
+2025/02/04 11:57:31.38 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.535/file34-10-33 to /tmp/worker-238401-3393150/cache/temp-rnd-aujjgceehywijnl
+2025/02/04 11:57:31.39 vine_worker[3393150] vine: tx: cache-update temp-rnd-aujjgceehywijnl 1 0 50000000 33188 52749 1738688251337200 X
+2025/02/04 11:57:31.39 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-aujjgceehywijnl -> /tmp/worker-238401-3393150/task.536/file34-10-33
+2025/02/04 11:57:31.39 vine_worker[3393150] vine: started task 536 pid 3393188: dd if=file34-10-33 of=file35-10-34 bs=50000000 count=1
+2025/02/04 11:57:31.39 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:31.44 vine_worker[3393150] vine: task 536 (pid 3393188) exited normally with exit code 0
+2025/02/04 11:57:31.44 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.536/file35-10-34
+2025/02/04 11:57:31.44 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.536/file35-10-34 to /tmp/worker-238401-3393150/cache/temp-rnd-kimyxafratffbby
+2025/02/04 11:57:31.44 vine_worker[3393150] vine: tx: cache-update temp-rnd-kimyxafratffbby 1 0 50000000 33188 54830 1738688251390302 X
+2025/02/04 11:57:31.44 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-kimyxafratffbby -> /tmp/worker-238401-3393150/task.537/file35-10-34
+2025/02/04 11:57:31.44 vine_worker[3393150] vine: started task 537 pid 3393189: dd if=file35-10-34 of=file36-10-35 bs=50000000 count=1
+2025/02/04 11:57:31.44 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:31.49 vine_worker[3393150] vine: task 537 (pid 3393189) exited normally with exit code 0
+2025/02/04 11:57:31.49 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.537/file36-10-35
+2025/02/04 11:57:31.49 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.537/file36-10-35 to /tmp/worker-238401-3393150/cache/temp-rnd-eavqmymifvyrhxr
+2025/02/04 11:57:31.49 vine_worker[3393150] vine: tx: cache-update temp-rnd-eavqmymifvyrhxr 1 0 50000000 33188 54358 1738688251445480 X
+2025/02/04 11:57:31.49 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-eavqmymifvyrhxr -> /tmp/worker-238401-3393150/task.538/file36-10-35
+2025/02/04 11:57:31.50 vine_worker[3393150] vine: started task 538 pid 3393190: dd if=file36-10-35 of=file37-10-36 bs=50000000 count=1
+2025/02/04 11:57:31.50 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:31.55 vine_worker[3393150] vine: task 538 (pid 3393190) exited normally with exit code 0
+2025/02/04 11:57:31.55 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.538/file37-10-36
+2025/02/04 11:57:31.55 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.538/file37-10-36 to /tmp/worker-238401-3393150/cache/temp-rnd-fvogxewybliqjfe
+2025/02/04 11:57:31.55 vine_worker[3393150] vine: tx: cache-update temp-rnd-fvogxewybliqjfe 1 0 50000000 33188 53204 1738688251500163 X
+2025/02/04 11:57:31.55 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-fvogxewybliqjfe -> /tmp/worker-238401-3393150/task.539/file37-10-36
+2025/02/04 11:57:31.55 vine_worker[3393150] vine: started task 539 pid 3393191: dd if=file37-10-36 of=file38-10-37 bs=50000000 count=1
+2025/02/04 11:57:31.55 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:31.60 vine_worker[3393150] vine: task 539 (pid 3393191) exited normally with exit code 0
+2025/02/04 11:57:31.60 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.539/file38-10-37
+2025/02/04 11:57:31.60 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.539/file38-10-37 to /tmp/worker-238401-3393150/cache/temp-rnd-sckrhbshablpkap
+2025/02/04 11:57:31.60 vine_worker[3393150] vine: tx: cache-update temp-rnd-sckrhbshablpkap 1 0 50000000 33188 52940 1738688251553750 X
+2025/02/04 11:57:31.60 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-sckrhbshablpkap -> /tmp/worker-238401-3393150/task.540/file38-10-37
+2025/02/04 11:57:31.60 vine_worker[3393150] vine: started task 540 pid 3393192: dd if=file38-10-37 of=file39-10-38 bs=50000000 count=1
+2025/02/04 11:57:31.60 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:31.66 vine_worker[3393150] vine: task 540 (pid 3393192) exited normally with exit code 0
+2025/02/04 11:57:31.66 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.540/file39-10-38
+2025/02/04 11:57:31.66 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.540/file39-10-38 to /tmp/worker-238401-3393150/cache/temp-rnd-yqrgxqhbjuytmrz
+2025/02/04 11:57:31.66 vine_worker[3393150] vine: tx: cache-update temp-rnd-yqrgxqhbjuytmrz 1 0 50000000 33188 55740 1738688251607057 X
+2025/02/04 11:57:31.66 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-yqrgxqhbjuytmrz -> /tmp/worker-238401-3393150/task.541/file39-10-38
+2025/02/04 11:57:31.66 vine_worker[3393150] vine: started task 541 pid 3393193: dd if=file39-10-38 of=file40-10-39 bs=50000000 count=1
+2025/02/04 11:57:31.66 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:31.71 vine_worker[3393150] vine: task 541 (pid 3393193) exited normally with exit code 0
+2025/02/04 11:57:31.71 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.541/file40-10-39
+2025/02/04 11:57:31.71 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.541/file40-10-39 to /tmp/worker-238401-3393150/cache/temp-rnd-ijnimamhkzbtsvd
+2025/02/04 11:57:31.71 vine_worker[3393150] vine: tx: cache-update temp-rnd-ijnimamhkzbtsvd 1 0 50000000 33188 53841 1738688251663123 X
+2025/02/04 11:57:31.71 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-ijnimamhkzbtsvd -> /tmp/worker-238401-3393150/task.542/file40-10-39
+2025/02/04 11:57:31.71 vine_worker[3393150] vine: started task 542 pid 3393194: dd if=file40-10-39 of=file41-10-40 bs=50000000 count=1
+2025/02/04 11:57:31.71 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:31.77 vine_worker[3393150] vine: task 542 (pid 3393194) exited normally with exit code 0
+2025/02/04 11:57:31.77 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.542/file41-10-40
+2025/02/04 11:57:31.77 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.542/file41-10-40 to /tmp/worker-238401-3393150/cache/temp-rnd-haloenkuzgouebe
+2025/02/04 11:57:31.77 vine_worker[3393150] vine: tx: cache-update temp-rnd-haloenkuzgouebe 1 0 50000000 33188 53793 1738688251717320 X
+2025/02/04 11:57:31.77 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-haloenkuzgouebe -> /tmp/worker-238401-3393150/task.543/file41-10-40
+2025/02/04 11:57:31.77 vine_worker[3393150] vine: started task 543 pid 3393195: dd if=file41-10-40 of=file42-10-41 bs=50000000 count=1
+2025/02/04 11:57:31.77 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:31.82 vine_worker[3393150] vine: task 543 (pid 3393195) exited normally with exit code 0
+2025/02/04 11:57:31.82 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.543/file42-10-41
+2025/02/04 11:57:31.82 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.543/file42-10-41 to /tmp/worker-238401-3393150/cache/temp-rnd-bgermwkckxnoexq
+2025/02/04 11:57:31.82 vine_worker[3393150] vine: tx: cache-update temp-rnd-bgermwkckxnoexq 1 0 50000000 33188 56168 1738688251771482 X
+2025/02/04 11:57:31.82 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-bgermwkckxnoexq -> /tmp/worker-238401-3393150/task.544/file42-10-41
+2025/02/04 11:57:31.82 vine_worker[3393150] vine: started task 544 pid 3393196: dd if=file42-10-41 of=file43-10-42 bs=50000000 count=1
+2025/02/04 11:57:31.82 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:31.88 vine_worker[3393150] vine: task 544 (pid 3393196) exited normally with exit code 0
+2025/02/04 11:57:31.88 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.544/file43-10-42
+2025/02/04 11:57:31.88 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.544/file43-10-42 to /tmp/worker-238401-3393150/cache/temp-rnd-vjkpiywpylbwhhk
+2025/02/04 11:57:31.88 vine_worker[3393150] vine: tx: cache-update temp-rnd-vjkpiywpylbwhhk 1 0 50000000 33188 53805 1738688251828001 X
+2025/02/04 11:57:31.88 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-vjkpiywpylbwhhk -> /tmp/worker-238401-3393150/task.545/file43-10-42
+2025/02/04 11:57:31.88 vine_worker[3393150] vine: started task 545 pid 3393197: dd if=file43-10-42 of=file44-10-43 bs=50000000 count=1
+2025/02/04 11:57:31.88 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:31.93 vine_worker[3393150] vine: task 545 (pid 3393197) exited normally with exit code 0
+2025/02/04 11:57:31.93 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.545/file44-10-43
+2025/02/04 11:57:31.93 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.545/file44-10-43 to /tmp/worker-238401-3393150/cache/temp-rnd-xmlbwuhbqqdzzwu
+2025/02/04 11:57:31.93 vine_worker[3393150] vine: tx: cache-update temp-rnd-xmlbwuhbqqdzzwu 1 0 50000000 33188 51912 1738688251882160 X
+2025/02/04 11:57:31.93 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-xmlbwuhbqqdzzwu -> /tmp/worker-238401-3393150/task.546/file44-10-43
+2025/02/04 11:57:31.93 vine_worker[3393150] vine: started task 546 pid 3393198: dd if=file44-10-43 of=file45-10-44 bs=50000000 count=1
+2025/02/04 11:57:31.93 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:31.98 vine_worker[3393150] vine: task 546 (pid 3393198) exited normally with exit code 0
+2025/02/04 11:57:31.98 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.546/file45-10-44
+2025/02/04 11:57:31.98 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.546/file45-10-44 to /tmp/worker-238401-3393150/cache/temp-rnd-xufsvzvsqzkallv
+2025/02/04 11:57:31.98 vine_worker[3393150] vine: tx: cache-update temp-rnd-xufsvzvsqzkallv 1 0 50000000 33188 53821 1738688251934431 X
+2025/02/04 11:57:31.98 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-xufsvzvsqzkallv -> /tmp/worker-238401-3393150/task.547/file45-10-44
+2025/02/04 11:57:31.98 vine_worker[3393150] vine: started task 547 pid 3393199: dd if=file45-10-44 of=file46-10-45 bs=50000000 count=1
+2025/02/04 11:57:31.98 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:32.04 vine_worker[3393150] vine: task 547 (pid 3393199) exited normally with exit code 0
+2025/02/04 11:57:32.04 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.547/file46-10-45
+2025/02/04 11:57:32.04 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.547/file46-10-45 to /tmp/worker-238401-3393150/cache/temp-rnd-ohxrqjjxyffvjog
+2025/02/04 11:57:32.04 vine_worker[3393150] vine: tx: cache-update temp-rnd-ohxrqjjxyffvjog 1 0 50000000 33188 53833 1738688251988637 X
+2025/02/04 11:57:32.04 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-ohxrqjjxyffvjog -> /tmp/worker-238401-3393150/task.548/file46-10-45
+2025/02/04 11:57:32.04 vine_worker[3393150] vine: started task 548 pid 3393200: dd if=file46-10-45 of=file47-10-46 bs=50000000 count=1
+2025/02/04 11:57:32.04 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:32.09 vine_worker[3393150] vine: task 548 (pid 3393200) exited normally with exit code 0
+2025/02/04 11:57:32.09 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.548/file47-10-46
+2025/02/04 11:57:32.09 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.548/file47-10-46 to /tmp/worker-238401-3393150/cache/temp-rnd-ieacqdhheepsdwl
+2025/02/04 11:57:32.09 vine_worker[3393150] vine: tx: cache-update temp-rnd-ieacqdhheepsdwl 1 0 50000000 33188 53417 1738688252042849 X
+2025/02/04 11:57:32.09 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-ieacqdhheepsdwl -> /tmp/worker-238401-3393150/task.549/file47-10-46
+2025/02/04 11:57:32.09 vine_worker[3393150] vine: started task 549 pid 3393201: dd if=file47-10-46 of=file48-10-47 bs=50000000 count=1
+2025/02/04 11:57:32.09 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:32.15 vine_worker[3393150] vine: task 549 (pid 3393201) exited normally with exit code 0
+2025/02/04 11:57:32.15 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.549/file48-10-47
+2025/02/04 11:57:32.15 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.549/file48-10-47 to /tmp/worker-238401-3393150/cache/temp-rnd-npnkkslyoglmgxy
+2025/02/04 11:57:32.15 vine_worker[3393150] vine: tx: cache-update temp-rnd-npnkkslyoglmgxy 1 0 50000000 33188 54971 1738688252096652 X
+2025/02/04 11:57:32.15 vine_worker[3393150] vine: input: link /tmp/worker-238401-3393150/cache/temp-rnd-npnkkslyoglmgxy -> /tmp/worker-238401-3393150/task.550/file48-10-47
+2025/02/04 11:57:32.15 vine_worker[3393150] vine: started task 550 pid 3393202: dd if=file48-10-47 of=file49-10-48 bs=50000000 count=1
+2025/02/04 11:57:32.15 vine_worker[3393150] vine: tx: info tasks_running 1
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: task 550 (pid 3393202) exited normally with exit code 0
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: output: measuring /tmp/worker-238401-3393150/task.550/file49-10-48
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: output: moving /tmp/worker-238401-3393150/task.550/file49-10-48 to /tmp/worker-238401-3393150/cache/temp-rnd-rkyufnapbatdjxo
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: cache-update temp-rnd-rkyufnapbatdjxo 1 0 50000000 33188 53733 1738688252151966 X
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688249855979 1738688249909535 0 508
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0474948 s, 1.1 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688249909848 1738688249965005 0 509
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0498041 s, 1.0 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688249965346 1738688250024498 0 510
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0530717 s, 942 MB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688250024817 1738688250079776 0 511
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0489163 s, 1.0 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688250080111 1738688250139492 0 512
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0535352 s, 934 MB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688250139839 1738688250193445 0 513
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0463289 s, 1.1 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688250193817 1738688250246219 0 514
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0466555 s, 1.1 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 91 91 1738688250246622 1738688250303674 0 515
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.051487 s, 971 MB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688250304025 1738688250358387 0 516
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0488581 s, 1.0 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688250358773 1738688250413090 0 517
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0486952 s, 1.0 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 91 91 1738688250413459 1738688250467771 0 518
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.048579 s, 1.0 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688250468106 1738688250523604 0 519
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0488573 s, 1.0 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688250523961 1738688250577244 0 520
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0475738 s, 1.1 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688250577627 1738688250633316 0 521
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0500785 s, 998 MB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688250633694 1738688250687601 0 522
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0484013 s, 1.0 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 91 91 1738688250687938 1738688250740595 0 523
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.047416 s, 1.1 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688250740934 1738688250794073 0 524
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0475033 s, 1.1 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688250794433 1738688250849455 0 525
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0481561 s, 1.0 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688250849843 1738688250902856 0 526
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0475258 s, 1.1 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688250903183 1738688250956326 0 527
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0474205 s, 1.1 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688250956685 1738688251009685 0 528
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0472726 s, 1.1 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688251009999 1738688251064726 0 529
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0489044 s, 1.0 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688251065129 1738688251118662 0 530
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0479079 s, 1.0 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688251119005 1738688251174912 0 531
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0476993 s, 1.0 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688251175261 1738688251228637 0 532
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0478582 s, 1.0 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688251228990 1738688251282172 0 533
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0475173 s, 1.1 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688251282547 1738688251336871 0 534
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0486918 s, 1.0 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688251337200 1738688251389949 0 535
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0473064 s, 1.1 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688251390302 1738688251445132 0 536
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0492668 s, 1.0 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688251445480 1738688251499838 0 537
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0487197 s, 1.0 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688251500163 1738688251553367 0 538
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0476224 s, 1.0 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688251553750 1738688251606690 0 539
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0475134 s, 1.1 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688251607057 1738688251662797 0 540
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0502505 s, 995 MB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688251663123 1738688251716964 0 541
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0483389 s, 1.0 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688251717320 1738688251771113 0 542
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0483256 s, 1.0 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 91 91 1738688251771482 1738688251827650 0 543
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.047704 s, 1.0 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688251828001 1738688251881806 0 544
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0483443 s, 1.0 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688251882160 1738688251934072 0 545
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0465511 s, 1.1 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688251934431 1738688251988252 0 546
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0481759 s, 1.0 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 91 91 1738688251988637 1738688252042470 0 547
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.048424 s, 1.0 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688252042849 1738688252096266 0 548
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0476876 s, 1.0 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688252096652 1738688252151623 0 549
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0491851 s, 1.0 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688252151966 1738688252205699 0 550
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0481221 s, 1.0 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688249472699 1738688249531140 0 501
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0524218 s, 954 MB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688249531526 1738688249589832 0 502
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0521702 s, 958 MB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688249590173 1738688249642995 0 503
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0471194 s, 1.1 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 91 91 1738688249643319 1738688249695261 0 504
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.046903 s, 1.1 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688249695601 1738688249747987 0 505
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0470719 s, 1.1 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 92 92 1738688249748339 1738688249801207 0 506
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.0472271 s, 1.1 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: tx: complete 0 0 91 91 1738688249801570 1738688249855667 0 507
+1+0 records in
+1+0 records out
+50000000 bytes (50 MB, 48 MiB) copied, 0.048138 s, 1.0 GB/s
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: rx: kill 508
+2025/02/04 11:57:32.20 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.508
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: rx: kill 509
+2025/02/04 11:57:32.20 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.509
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: rx: kill 521
+2025/02/04 11:57:32.20 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.521
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: rx: kill 520
+2025/02/04 11:57:32.20 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.520
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: rx: kill 519
+2025/02/04 11:57:32.20 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.519
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: rx: kill 518
+2025/02/04 11:57:32.20 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.518
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: rx: kill 517
+2025/02/04 11:57:32.20 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.517
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: rx: kill 516
+2025/02/04 11:57:32.20 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.516
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: rx: kill 515
+2025/02/04 11:57:32.20 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.515
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: rx: kill 514
+2025/02/04 11:57:32.20 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.514
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: rx: kill 513
+2025/02/04 11:57:32.20 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.513
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: rx: kill 512
+2025/02/04 11:57:32.20 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.512
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: rx: kill 511
+2025/02/04 11:57:32.20 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.511
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: rx: kill 510
+2025/02/04 11:57:32.20 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.510
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: rx: kill 522
+2025/02/04 11:57:32.20 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.522
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: rx: kill 507
+2025/02/04 11:57:32.20 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.507
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: rx: kill 506
+2025/02/04 11:57:32.20 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.506
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: rx: kill 505
+2025/02/04 11:57:32.20 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.505
+2025/02/04 11:57:32.20 vine_worker[3393150] vine: rx: kill 504
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.504
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 503
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.503
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 502
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.502
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 501
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.501
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 550
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.550
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 549
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.549
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 548
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.548
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 547
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.547
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 546
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.546
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 545
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.545
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 544
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.544
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 543
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.543
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 542
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.542
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 541
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.541
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 540
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.540
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 539
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.539
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 538
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.538
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 537
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.537
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 536
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.536
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 535
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.535
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 534
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.534
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 533
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.533
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 532
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.532
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 531
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.531
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 530
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.530
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 529
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.529
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 528
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.528
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 527
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.527
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 526
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.526
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 525
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.525
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 524
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.524
+2025/02/04 11:57:32.21 vine_worker[3393150] vine: rx: kill 523
+2025/02/04 11:57:32.21 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/task.523
+2025/02/04 11:57:43.49 vine_worker[3393150] vine: rx: release
+2025/02/04 11:57:43.49 vine_worker[3393150] vine: released by manager 10.32.85.31:9285.
+2025/02/04 11:57:43.49 vine_worker[3393150] vine: disconnecting from manager 10.32.85.31:9285
+2025/02/04 11:57:43.49 vine_worker[3393150] tcp: disconnected from 10.32.85.31 port 9285
+2025/02/04 11:57:43.49 vine_worker[3393150] vine: killing all outstanding tasks
+2025/02/04 11:57:43.49 vine_worker[3393150] vine: all data structures are clean
+2025/02/04 11:57:43.49 vine_worker[3393150] vine: stopping transfer server pid 3393152
+2025/02/04 11:57:43.49 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-ohxrqjjxyffvjog
+2025/02/04 11:57:43.49 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-ohxrqjjxyffvjog.meta
+2025/02/04 11:57:43.49 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-vjvqkkhdajcalkw
+2025/02/04 11:57:43.50 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-vjvqkkhdajcalkw.meta
+2025/02/04 11:57:43.50 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-artprsmrmuotekm
+2025/02/04 11:57:43.50 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-artprsmrmuotekm.meta
+2025/02/04 11:57:43.51 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-fyniumlhdnodrnv
+2025/02/04 11:57:43.51 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-fyniumlhdnodrnv.meta
+2025/02/04 11:57:43.51 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-neneoghxgvfqpqo
+2025/02/04 11:57:43.52 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-neneoghxgvfqpqo.meta
+2025/02/04 11:57:43.52 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-vjxmzodlhojcymj
+2025/02/04 11:57:43.52 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-vjxmzodlhojcymj.meta
+2025/02/04 11:57:43.52 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-cjbjejbnsjrdppt
+2025/02/04 11:57:43.53 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-cjbjejbnsjrdppt.meta
+2025/02/04 11:57:43.53 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-kimyxafratffbby
+2025/02/04 11:57:43.53 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-kimyxafratffbby.meta
+2025/02/04 11:57:43.53 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-ryewxnmhwuqvvpl
+2025/02/04 11:57:43.54 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-ryewxnmhwuqvvpl.meta
+2025/02/04 11:57:43.54 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-hrazpzyjpwfzsec
+2025/02/04 11:57:43.54 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-hrazpzyjpwfzsec.meta
+2025/02/04 11:57:43.54 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-nbftdfpglppuxxr
+2025/02/04 11:57:43.55 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-nbftdfpglppuxxr.meta
+2025/02/04 11:57:43.55 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-haloenkuzgouebe
+2025/02/04 11:57:43.55 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-haloenkuzgouebe.meta
+2025/02/04 11:57:43.55 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-sckrhbshablpkap
+2025/02/04 11:57:43.56 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-sckrhbshablpkap.meta
+2025/02/04 11:57:43.56 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-wggfanrahwsupjf
+2025/02/04 11:57:43.56 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-wggfanrahwsupjf.meta
+2025/02/04 11:57:43.56 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-hhwwhismpilgozt
+2025/02/04 11:57:43.57 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-hhwwhismpilgozt.meta
+2025/02/04 11:57:43.57 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-ovrweknmkwojedq
+2025/02/04 11:57:43.57 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-ovrweknmkwojedq.meta
+2025/02/04 11:57:43.57 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-ygigthrtuxjrotq
+2025/02/04 11:57:43.58 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-ygigthrtuxjrotq.meta
+2025/02/04 11:57:43.58 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-fksqhssebmlpumq
+2025/02/04 11:57:43.58 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-fksqhssebmlpumq.meta
+2025/02/04 11:57:43.58 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-mwrmbuevekdtpxa
+2025/02/04 11:57:43.59 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-mwrmbuevekdtpxa.meta
+2025/02/04 11:57:43.59 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-mvfoagwsucpyiph
+2025/02/04 11:57:43.59 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-mvfoagwsucpyiph.meta
+2025/02/04 11:57:43.59 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-xmlbwuhbqqdzzwu
+2025/02/04 11:57:43.60 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-xmlbwuhbqqdzzwu.meta
+2025/02/04 11:57:43.60 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-fvogxewybliqjfe
+2025/02/04 11:57:43.60 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-fvogxewybliqjfe.meta
+2025/02/04 11:57:43.60 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-urypsaowwijowxs
+2025/02/04 11:57:43.61 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-urypsaowwijowxs.meta
+2025/02/04 11:57:43.61 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-bgermwkckxnoexq
+2025/02/04 11:57:43.61 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-bgermwkckxnoexq.meta
+2025/02/04 11:57:43.61 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-utvgoyxohaespel
+2025/02/04 11:57:43.62 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-utvgoyxohaespel.meta
+2025/02/04 11:57:43.62 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-aujjgceehywijnl
+2025/02/04 11:57:43.62 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-aujjgceehywijnl.meta
+2025/02/04 11:57:43.62 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-eavqmymifvyrhxr
+2025/02/04 11:57:43.63 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-eavqmymifvyrhxr.meta
+2025/02/04 11:57:43.63 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-enxtjwsopnablsc
+2025/02/04 11:57:43.63 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-enxtjwsopnablsc.meta
+2025/02/04 11:57:43.63 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-oqyydeufigocley
+2025/02/04 11:57:43.64 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-oqyydeufigocley.meta
+2025/02/04 11:57:43.64 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-iieomkbscteoyqj
+2025/02/04 11:57:43.64 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-iieomkbscteoyqj.meta
+2025/02/04 11:57:43.64 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-jehqfllivlnvbao
+2025/02/04 11:57:43.65 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-jehqfllivlnvbao.meta
+2025/02/04 11:57:43.65 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-ieacqdhheepsdwl
+2025/02/04 11:57:43.65 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-ieacqdhheepsdwl.meta
+2025/02/04 11:57:43.65 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-vxxviybzvfwzoov
+2025/02/04 11:57:43.66 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-vxxviybzvfwzoov.meta
+2025/02/04 11:57:43.66 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-npnkkslyoglmgxy
+2025/02/04 11:57:43.66 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-npnkkslyoglmgxy.meta
+2025/02/04 11:57:43.66 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-hrgelswgdzsszmy
+2025/02/04 11:57:43.67 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-hrgelswgdzsszmy.meta
+2025/02/04 11:57:43.67 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-dldkxegvzmcbqly
+2025/02/04 11:57:43.67 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-dldkxegvzmcbqly.meta
+2025/02/04 11:57:43.67 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-rkyufnapbatdjxo
+2025/02/04 11:57:43.68 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-rkyufnapbatdjxo.meta
+2025/02/04 11:57:43.68 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-ifprpverccnvdcm
+2025/02/04 11:57:43.68 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-ifprpverccnvdcm.meta
+2025/02/04 11:57:43.68 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-lrohlrtgfqrzkcw
+2025/02/04 11:57:43.69 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-lrohlrtgfqrzkcw.meta
+2025/02/04 11:57:43.69 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-zsriofforpdowuv
+2025/02/04 11:57:43.69 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-zsriofforpdowuv.meta
+2025/02/04 11:57:43.69 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-zkckfwgfluxsvco
+2025/02/04 11:57:43.70 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-zkckfwgfluxsvco.meta
+2025/02/04 11:57:43.70 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-ijnimamhkzbtsvd
+2025/02/04 11:57:43.70 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-ijnimamhkzbtsvd.meta
+2025/02/04 11:57:43.70 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-qeeitrrvijldooy
+2025/02/04 11:57:43.71 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-qeeitrrvijldooy.meta
+2025/02/04 11:57:43.71 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-xufsvzvsqzkallv
+2025/02/04 11:57:43.71 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-xufsvzvsqzkallv.meta
+2025/02/04 11:57:43.71 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-vjkpiywpylbwhhk
+2025/02/04 11:57:43.71 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-vjkpiywpylbwhhk.meta
+2025/02/04 11:57:43.71 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-yqrgxqhbjuytmrz
+2025/02/04 11:57:43.72 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-yqrgxqhbjuytmrz.meta
+2025/02/04 11:57:43.72 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-fbmipathodpkxos
+2025/02/04 11:57:43.72 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-fbmipathodpkxos.meta
+2025/02/04 11:57:43.72 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-acnxfpqvjqywqvs
+2025/02/04 11:57:43.73 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-acnxfpqvjqywqvs.meta
+2025/02/04 11:57:43.73 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-mqejkhwxnanwzsp
+2025/02/04 11:57:43.73 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-mqejkhwxnanwzsp.meta
+2025/02/04 11:57:43.73 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-prlzlmtvmnbyosm
+2025/02/04 11:57:43.74 vine_worker[3393150] debug: trashing file /tmp/worker-238401-3393150/cache/temp-rnd-prlzlmtvmnbyosm.meta
+2025/02/04 11:57:43.74 vine_worker[3393150] vine: cleaning workspace /tmp/worker-238401-3393150
+2025/02/04 11:57:43.74 vine_worker[3393150] debug: trashing file transfer
+2025/02/04 11:57:43.74 vine_worker[3393150] debug: trashing file temp
+2025/02/04 11:57:44.74 vine_worker[3393150] tcp: connecting to 10.32.85.31 port 9285
+2025/02/04 11:57:44.74 vine_worker[3393150] tcp: connection to 10.32.85.31 port 9285 failed (Connection refused)
+2025/02/04 11:57:44.74 vine_worker[3393150] tcp: disconnected from 10.32.85.31 port 9285
+2025/02/04 11:57:46.10 vine_worker[3393150] tcp: connecting to 10.32.85.31 port 9285
+2025/02/04 11:57:46.10 vine_worker[3393150] tcp: connection to 10.32.85.31 port 9285 failed (Connection refused)
+2025/02/04 11:57:46.10 vine_worker[3393150] tcp: disconnected from 10.32.85.31 port 9285
+2025/02/04 11:57:46.10 vine_worker[3393150] notice: stopping: abort signal received
